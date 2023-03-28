@@ -32,114 +32,26 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 <Link legacyBehavior href="/">
                   Home
                 </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="/">
-                      homepage 1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-2">
-                      homepage 2
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-3">
-                      homepage 3
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li>
-                <Link legacyBehavior href="about">
-                  Pages
-                </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="about">
-                      about
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="team">
-                      team
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="pricing">
-                      pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="404error">
-                      404 error
-                    </Link>
-                  </li>
-                </ul>
+                <a href="http://premiumads.net/" target="_blank">
+                  About PremiumAds
+                </a>
               </li>
               <li>
                 <Link legacyBehavior href="portfolio-grid">
-                  Portfolio
+                  Data Source
                 </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="portfolio-grid">
-                      portfolio grid
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-masonry">
-                      portfolio masonry
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-metro">
-                      portfolio metro
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-single-v1">
-                      portfolio single v1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-single-v2">
-                      portfolio single v2
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li>
                 <Link legacyBehavior href="blog-grid">
-                  Blog
+                  Tips & Highlights
                 </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="blog-grid">
-                      blog grid
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="blog-single-post">
-                      blog single post 1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="blog-single-post-2">
-                      blog single post 2
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li>
-                <Link legacyBehavior href="contacts">
-                  contacts
-                </Link>
+                <a href="https://premiumads.net/contact/" target="_blank">
+                  Contacts
+                </a>
               </li>
             </ul>
           </div>
@@ -159,7 +71,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
               />
             </form>
             <Link legacyBehavior href="/contacts">
-              <a className="themebtu">Get Started</a>
+              <a className="themebtu">Work With Us</a>
             </Link>
           </div>
           <div className="bar-menu" onClick={() => setToggle(true)}>

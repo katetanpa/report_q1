@@ -285,6 +285,7 @@ header {
 .small-services {
     display: flex;
     align-items: center;
+
 }
 .small-services.lest {
     border: 0;
@@ -308,7 +309,7 @@ header {
     display: flex;
     align-items: center;
     border-right: 1px solid #666;
-    padding-left: 50px;
+    padding-left: 20px;
 }
 .brands-we-work.one {
     border: 0;

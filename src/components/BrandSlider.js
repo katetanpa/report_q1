@@ -35,6 +35,31 @@ const BrandSlider = () => {
             <img alt="img" src="assets/img/brand-6.png" />
           </div>
         </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="brand-img">
+            <img alt="img" src="assets/img/brand-7.png" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="brand-img">
+            <img alt="img" src="assets/img/brand-8.png" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="brand-img">
+            <img alt="img" src="assets/img/brand-9.png" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="brand-img">
+            <img alt="img" src="assets/img/brand-10.png" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="swiper-slide">
+          <div className="brand-img">
+            <img alt="img" src="assets/img/brand-11.png" />
+          </div>
+        </SwiperSlide>
       </div>
     </Swiper>
   );

@@ -11,15 +11,7 @@ const Preloader = () => {
     <div className="preloader">
       <div>
         <div className="container">
-          <div className="squarebox one" />
-          <div className="squarebox two" />
-          <div className="squarebox three" />
-          <div className="squarebox two" />
-          <div className="squarebox three" />
-          <div className="squarebox four" />
-          <div className="squarebox three" />
-          <div className="squarebox four" />
-          <div className="squarebox five" />
+          <object className="squarebox two" data="assets\img\PREMIUMADS_SVG-01.svg" width="300" height="300"> </object>
         </div>
       </div>
     </div>

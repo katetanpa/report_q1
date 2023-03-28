@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"portfolio-grid.jsx -> @/src/components/PortfolioGridIsotope":{"id":"portfolio-grid.jsx -> @/src/components/PortfolioGridIsotope","files":["static/chunks/src_components_PortfolioGridIsotope_js.js"]}}
+self.__REACT_LOADABLE_MANIFEST={}

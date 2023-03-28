@@ -15,7 +15,7 @@ const Layout = ({
   return (
     <Fragment>
       <Head>
-        <title>Terio - {pageName}</title>
+        <title>Q1 2021 Report - {pageName}</title>
       </Head>
       <VideoPopup />
       <ImageView />

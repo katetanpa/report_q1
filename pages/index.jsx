@@ -12,13 +12,10 @@ const Index = () => {
         <div className="container">
           <div className="heading-boder">
             <h2>
-              <span>Unlock</span>
-              The Full Potential Of Your Business.{" "}
+              <span>Q1 2023 Report</span>
+              Mobile Game Ad Monetisation{" "}
             </h2>
-            <p>Creative concepting and visual design</p>
-            <a href="services.html" className="themebtu full">
-              More Services
-            </a>
+            <p>Insights from Premium Ads</p>
           </div>
         </div>
       </section>
@@ -41,8 +38,8 @@ const Index = () => {
                     </g>
                   </svg>
                   <div>
-                    <a href="services.html">Research And Discovery</a>
-                    <span>Morbi interdum mollis sapien.</span>
+                    <a href="services.html">In-Game Ad Revenue Report</a>
+                    <span>Insights of Revenue Share Between OS & Ad Formats </span>
                   </div>
                 </div>
               </div>
@@ -61,8 +58,8 @@ const Index = () => {
                     </g>
                   </svg>
                   <div>
-                    <a href="services.html">Planning For The Future</a>
-                    <span>Phasellus lacinia, ullamcorper laoreet.</span>
+                    <a href="services.html">eCPM Revolution</a>
+                    <span>In-dept Report About eCPM Revolution by Ad Formats & Countries</span>
                   </div>
                 </div>
               </div>
@@ -108,8 +105,8 @@ const Index = () => {
                     />
                   </svg>
                   <div>
-                    <a href="services.html">Building Your Brand</a>
-                    <span>Pulvinar risus, vitae facilisis dolor.</span>
+                    <a href="services.html">Fill-rate & Performance</a>
+                    <span>In-dept Report about Monetisation Performance on different dimensions</span>
                   </div>
                 </div>
               </div>
@@ -138,14 +135,13 @@ const Index = () => {
             </div>
             <div className="col-xl-6 pl-75">
               <div className="heading design-enjoy">
-                <h6>Dream. Design. Enjoy.</h6>
-                <h2> We're an Independent Design &amp; Development Agency.</h2>
+                <h6>Excutive Summary</h6>
+                <h2> First quarter of the year with a lot of big global changes</h2>
                 <img alt="line" src="assets/img/headingline.png" />
               </div>
               <div className="welcome-text">
                 <h6 className="pt-4 pb-5">
-                  Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                  nisi neque, aliquet vel dapibusid, mattis velnisi.
+                Inflation has risen across global markets. With less purchasing power during this Holiday Season, users may interact more with rewarded ads.
                 </h6>
                 <h5>User Experience</h5>
                 <p>
@@ -214,247 +210,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <section className="project gap">
-        <div className="container">
-          <div className="heading-boder">
-            <h2>
-              Recently
-              <br />
-              Completed<span>Projects</span>
-            </h2>
-            <p>We Help You Build An Online Brand</p>
-          </div>
-          <Swiper
-            {...projectsswiper}
-            className="swiper-container projectsswiper"
-          >
-            <div className="swiper-wrapper">
-              <SwiperSlide className="swiper-slide">
-                <div className="project-data">
-                  <a href="portfolio-single-v1.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/project-1.jpg"
-                    />
-                  </a>
-                  <div className="project-text">
-                    <h5>Cosmetics Mockup Set Template</h5>
-                    <p>Quisque volutpat mattis eros.</p>
-                    <a href="portfolio-single-v1.html">View Project</a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="project-data">
-                  <a href="portfolio-single-v1.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/project-2.jpg"
-                    />
-                  </a>
-                  <div className="project-text">
-                    <h5>Nunc dignissim risus</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetuer donec odio.</p>
-                    <a href="portfolio-single-v1.html">View Project</a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="project-data">
-                  <a href="portfolio-single-v1.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/project-3.jpg"
-                    />
-                  </a>
-                  <div className="project-text">
-                    <h5>Cosmetics Mockup Set Template</h5>
-                    <p>Quisque volutpat mattis eros.</p>
-                    <a href="portfolio-single-v1.html">View Project</a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="project-data">
-                  <a href="portfolio-single-v1.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/project-1.jpg"
-                    />
-                  </a>
-                  <div className="project-text">
-                    <h5>Cosmetics Mockup Set Template</h5>
-                    <p>Quisque volutpat mattis eros.</p>
-                    <a href="portfolio-single-v1.html">View Project</a>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </div>
-            <div className="swiper-button-next">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-button-prev">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-          </Swiper>
-          <div className="btugap">
-            <a href="portfolio-grid.html" className="themebtu">
-              View More Works
-            </a>
-          </div>
-          <div className="tp-hero__shapes">
-            <div className="style-shapes-1"></div>
-            <div className="style-shapes-2">
-              <img alt="shap-4" src="assets/img/shap-4.png" />
-            </div>
-            <div className="style-shapes-3"></div>
-            <div className="style-shapes-4">
-              <img alt="dots1" src="assets/img/dots1.png" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="gap reaview-section">
-        <div className="container">
-          <div className="heading">
-            <h6>Why Partner With Us?</h6>
-            <h2>What Our Clients Said About Terio</h2>
-            <img alt="line" src="assets/img/headingline.png" />
-          </div>
-          <Swiper {...partnerswiper} className="swiper-container partnerswiper">
-            <div className="swiper-wrapper">
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-1.jpg" />
-                  <p>
-                    “Morbi in sem quis dui placerat ornare. Pellentesque odio
-                    nisi, euismod in, pharetra a, ultricies in, diam.”
-                  </p>
-                  <div className="boder" />
-                  <span>
-                    Kalem Patel
-                    <br />
-                    Manager of Terio
-                  </span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-2.jpg" />
-                  <p>
-                    “Praesent dapibus, neque id cursus faucibus, tortor neque
-                    egestas auguae, eu vulputate magna eros eu erat.”
-                  </p>
-                  <div className="boder" />
-                  <span>
-                    Bernard Castro
-                    <br />
-                    Owner of Love Digital
-                  </span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-3.jpg" />
-                  <p>
-                    “Quisque a lectus. Donec consectetuer ligula vulputate sem
-                    tristique cursus. Nam nulla quam, gravida non, commodo a.”
-                  </p>
-                  <div className="boder" />
-                  <span>
-                    Lori Moses
-                    <br />
-                    Manager of Digitalagency
-                  </span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="reaview">
-                  <img alt="man" src="assets/img/reaview-4.jpg" />
-                  <p>
-                    “Morbi in sem quis dui placerat ornare. Pellentesque odio
-                    nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
-                    Cras consequat.”
-                  </p>
-                  <div className="boder" />
-                  <span>
-                    Kalem Patel
-                    <br />
-                    Manager of Terio
-                  </span>
-                </div>
-              </SwiperSlide>
-            </div>
-            <div className="swiper-button-next">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-button-prev">
-              <svg
-                version="1.1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 476.213 476.213"
-                style={{ enableBackground: "new 0 0 476.213 476.213" }}
-                xmlSpace="preserve"
-              >
-                <polygon
-                  points="405.606,167.5 384.394,188.713 418.787,223.106 0,223.106 0,253.106 418.787,253.106 384.394,287.5 
-    405.606,308.713 476.213,238.106 "
-                />
-              </svg>
-            </div>
-            <div className="swiper-pagination" />
-          </Swiper>
-        </div>
-      </section>
       <section
         className="gap no-bottom video-section"
         style={{ backgroundColor: "#f2edf5" }}
@@ -462,9 +217,9 @@ const Index = () => {
         <div className="container">
           <div className="heading-boder two">
             <h2>
-              Let’s Start On Your Case <span>Together</span>
+              Become Our Next <span>Successful Story</span>
             </h2>
-            <p>Pellentesque aliquet nibh necurna.</p>
+            <p>Monetise your games with world-leading brands & media buying - Work with a Google vetted partner</p>
           </div>
           <div className="row">
             <div className="offset-xl-1 col-xl-10">
@@ -472,7 +227,7 @@ const Index = () => {
                 <img className="w-100" alt="img" src="assets/img/video.jpg" />
                 <a
                   data-fancybox
-                  href="https://www.youtube.com/watch?v=1La4QzGeaaQ"
+                  href="https://www.youtube.com/watch?v=6XXExJ5PHkk"
                 >
                   <i className="fa-solid fa-play" />
                 </a>
@@ -497,225 +252,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-        <div className="get-in-touch gap">
-          <div className="container">
-            <div className="row">
-              <div className="offset-xl-1 col-xl-10">
-                <div className="row">
-                  <div className="col-xl-6">
-                    <div className="heading">
-                      <h6>Get In Touch</h6>
-                      <h2> Kick Start Your Awesome Project Now!</h2>
-                      <img alt="line" src="assets/img/headingline.png" />
-                      <p>
-                        Sed egestas, ante et vulputate volutpat, eros pede
-                        semper est, vitae luctus metus libero eu augue.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="col-xl-6">
-                    <form className="touch">
-                      <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                          <input
-                            type="text"
-                            name="name"
-                            placeholder="Your name *"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                          <input
-                            type="text"
-                            name="email"
-                            placeholder="Email address *"
-                          />
-                        </div>
-                        <div className="col-lg-4 col-md-6">
-                          <input
-                            type="number"
-                            name="phone"
-                            placeholder="Your Phone (optional)"
-                          />
-                        </div>
-                        <div className="col-xl-12">
-                          <textarea
-                            placeholder="Your message *"
-                            defaultValue={""}
-                          />
-                        </div>
-                        <div className="btugap">
-                          <a href="#" className="themebtu full">
-                            Send Message
-                          </a>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="latest-blog gap">
-        <div className="container">
-          <div className="heading">
-            <h6>our blog</h6>
-            <h2>News and Thoughts</h2>
-            <img alt="line" src="assets/img/headingline.png" />
-          </div>
-          <Swiper {...latestswiper} className="swiper-container latestswiper">
-            <div className="swiper-wrapper">
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-1.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-2.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-3.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-4.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-5.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-3.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide">
-                <div className="latest-blog-post">
-                  <a href="blog-single-post.html">
-                    <img
-                      alt="img"
-                      className="w-100"
-                      src="assets/img/latest-blog-4.jpg"
-                    />
-                  </a>
-                  <a href="#">
-                    <i className="fa-regular fa-clock" />
-                    <span>August 10, 2023</span>
-                  </a>
-                  <a href="blog-single-post.html">
-                    <h4>
-                      Class aptent taciti sociosqu ad litora torquent per.
-                    </h4>
-                  </a>
-                  <span>by Jane Luna | Digital Strategy</span>
-                </div>
-              </SwiperSlide>
-            </div>
-            <div className="swiper-pagination" />
-          </Swiper>
+        <div className="gap">
         </div>
       </section>
     </Layout>
