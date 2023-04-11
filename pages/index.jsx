@@ -1,7 +1,6 @@
 import BrandSlider from "@/src/components/BrandSlider";
 import Layout from "@/src/layout/Layout";
-import { latestswiper, partnerswiper, projectsswiper } from "@/src/sliderProps";
-import { Swiper, SwiperSlide } from "swiper/react";
+import OsShare from "@/src/components/charts/OsShare"
 const Index = () => {
   return (
     <Layout noHeaderBg pageName={"Home"}>
@@ -141,20 +140,18 @@ const Index = () => {
               </div>
               <div className="welcome-text">
                 <h6 className="pt-4 pb-5">
-                Inflation has risen across global markets. With less purchasing power during this Holiday Season, users may interact more with rewarded ads.
+                Here are the results from the analysis of 130+ billion ad impressions in the first quarter of 2023. Find the latest insights on eCPM trends, for each ad format, in top global markets. <br/>
                 </h6>
-                <h5>User Experience</h5>
+                <h5>How To Use This Report</h5>
                 <p>
-                  Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia,
-                  magna a ullamcorper laoreet, lectus arcu pulvinar facilisis.{" "}
+                  <ul>
+                    <li>This valuable report will help you make smarter & data-driven decisions while allowing you to keep a steady growth for all your mobile apps & games.</li>
+                    <li>The eCPM benchmark of each ad format & ad demand source can serve as a revenue planning tool</li>
+                    <li>Knowing which direction the fill-rate of an ad format & platforms are trending will help you decide which ad units implement to maximize your revenue.</li>
+                  </ul>
                 </p>
-                <h5>Digital Design</h5>
-                <p>
-                  Sed ac risus. Donec nec justo eget felis facilisis fermentum.
-                  Aliquam porttitor mauris sit amet orci. Aenean dignissim
-                  pellentesque felis.
-                </p>
-                <a href="services.html" className="themebtu">
+                <p>Special thanks to all top Brands, Advertisers, Demand Partners and Publishers that trust PremiumAds in the common goal of making each of them the next successful business story</p>
+                <a href="http://premiumads.net/" className="themebtu">
                   More Services
                 </a>
               </div>
@@ -166,8 +163,8 @@ const Index = () => {
       <section className="how-it-works gap no-top">
         <div className="container">
           <div className="heading">
-            <h6>How It Works?</h6>
-            <h2> We Are Strategic- Creative Digital Agency.</h2>
+            <h6>What Are The Keyfindings?</h6>
+            <h2> From 1,000+ Apps, <br/> 100+ regions & <br/> 70+ Ad Demand Sources</h2>
             <img alt="line" src="assets/img/headingline.png" />
           </div>
           <div className="row pt-4">
@@ -175,11 +172,12 @@ const Index = () => {
               <div className="strategic">
                 <h2>O1/</h2>
                 <div className="pl-80">
-                  <h4>Submit Your Design Request</h4>
+                  <h4>Let's Be Realistic</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna.
+                  The ad revenue & performance of whole  in-app advertising market are still very far from being as glory as the good old 2021. However, from January of 2023, we have seen positive percentage of revenue growth, compared to January of 2022
                   </p>
+                  <p className="pt-4 pb-5">This can be a good sign of slowly recovery in terms of ARPU & LTV. After all, it's safe to say in-app advertising is remaining in a good position & having rooms for better boost. Compared to Q1 2020, Q1 2023 is having 25% more of Ad Revenue in gaming apps & out-standing 220% more in non-gaming apps</p>
+                  <p><b>So if you are a new player in publishing or developing, the market is still very welcoming you on board!</b></p>
                 </div>
               </div>
             </div>
@@ -187,11 +185,12 @@ const Index = () => {
               <div className="strategic">
                 <h2>O2/</h2>
                 <div className="pl-80">
-                  <h4>We Start Workin</h4>
+                  <h4>Meet The Ad Formats</h4>
                   <p>
-                    Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In
-                    nisi neque, aliquet vel, dapibus id, mattis vel, nisi.{" "}
+                  Interstitial ad format is gaining bigger share over total revenue when in previous years, it was almost the same to its competitor - Rewarded Ads. 
                   </p>
+                  <p className="pt-4 pb-5">Also in Q1 2023, we have tested & seen the thrivingness of 2 unpopular ad formats: App Open & Native Rendering <br/> Just within United States & Tier 1 country, App Open average eCPM is 2 times higher than Rewarded Ads when remains 9.8% of total fill-rate. Native Ads average eCPM is even 7 times higher than Banner Ads when remains almost the same fill-rate </p>
+                  <p><b>So maybe you will really need to consider trying out these new exponent for your ad monetisation strategy</b></p>
                 </div>
               </div>
             </div>
@@ -199,15 +198,42 @@ const Index = () => {
               <div className="strategic">
                 <h2>O3/</h2>
                 <div className="pl-80">
-                  <h4>Get Your Projects Done! </h4>
-                  <p>
-                    In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.
-                    Sed pretium, ligula sollicitudin laoreet viverra.
-                  </p>
+                  <h4>About The Top Tiers </h4>
+                  <p>In 2023 Q1, the USA has kept steady fill rates & increased their ARPU. However there are new sky-rocketing players in the global market such as Saudi Arabia, Australia & South Korea. <br/>These strongly emerging market is very promising in standing next to the US in terms of next quarter both eCPM & fill-rate.  </p>
+                  <p className="pt-4 pb-5">When it comes to PremiumAds exclusively, we are glad to remain our supreme position over our hometown - Brazil & LATAM country. <br/> From our partners' feedbacks, we are bringing 3 times higher eCPM & almost 50% increase of fill-rate for their traffic in this area</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="case-studies gap">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-4">
+              <div className="heading-boder">
+                <h2>
+                  <span>Revenue Share</span>
+                </h2>
+              </div>
+              <div className="heading">
+                <h6>Over Operating System & Ad Formats</h6>
+              </div>
+            </div>
+            <div className="col-xl-4">
+              <OsShare />
+            </div>
+            <div className="col-xl-4 ml-5">
+              <OsShare />
+            </div>
+          </div>
+        </div>
+        <div className="tp-hero__shapes">
+          <div className="style-shapes-1"></div>
+          <div className="style-shapes-2">
+            <img alt="shap-4" src="assets/img/shap-b-2.png" />
+          </div>
+          <div className="style-shapes-3"></div>
         </div>
       </section>
       <section

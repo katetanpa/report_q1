@@ -39,12 +39,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 </a>
               </li>
               <li>
-                <Link legacyBehavior href="portfolio-grid">
-                  Data Source
-                </Link>
-              </li>
-              <li>
-                <Link legacyBehavior href="blog-grid">
+                <Link legacyBehavior href="https://premiumads.net/blog/">
                   Tips & Highlights
                 </Link>
               </li>
