@@ -5,8 +5,8 @@ const Footer = () => {
         <div className="row">
           <div className="col-xl-3 col-lg-4 col-md-6">
             <div className="footer-logo">
-              <a href="index.html">
-                <img alt="img" src="assets/img/logo-black.png" />
+              <a href="/">
+                <img alt="Premium Ads Logo Black" src="assets/img/logo-black.png" />
               </a>
               <p>
                 The first LATAM Google Certified Publishing Partner & a National Awarded Advertising Network with a decade of successful monetisation stories

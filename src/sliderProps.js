@@ -21,7 +21,6 @@ SwiperCore.use([
 
 export const brandswiper = {
   slidesPerView: 5,
-  slidesPerColumn: 1,
   spaceBetween: 10,
   loop: true,
   autoplay: {

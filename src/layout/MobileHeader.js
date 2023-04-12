@@ -9,8 +9,8 @@ const MobileHeader = ({ toggle, close }) => {
       style={{ display: "block" }}
     >
       <div className="res-log">
-        <a href="index.html">
-          <img src="assets/img/logo.png" alt="Responsive Logo" />
+        <a href="/">
+          <img src="assets/img/logo.png" alt="Premium Ads Logo" />
         </a>
       </div>
       <ul>
@@ -20,7 +20,7 @@ const MobileHeader = ({ toggle, close }) => {
           </Link>
         </li>
         <li>
-          <a legacyBehavior href="http://premiumads.net/" target="_blank">
+          <a href="http://premiumads.net/" target="_blank">
             About PremiumAds
           </a>
         </li>
@@ -40,7 +40,7 @@ const MobileHeader = ({ toggle, close }) => {
           </a>
         </li>
       </ul>
-      <a href="JavaScript:void(0)" id="res-cross" onClick={() => close()} />
+      <a href="#" id="res-cross" onClick={() => close()} />
     </div>
   );
 };

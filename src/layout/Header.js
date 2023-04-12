@@ -18,13 +18,11 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
           <div className="d-flex align-items-center">
             <div className="logo">
               <Link legacyBehavior href="/">
-                <a>
                   {blackLogo ? (
                     <img alt="logo" src="assets/img/logo-black.png" />
                   ) : (
                     <img alt="logo" src="assets/img/logo.png" />
                   )}
-                </a>
               </Link>
             </div>
             <ul className="menu">
@@ -65,8 +63,8 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 onClick={() => setSearchToggle(!searchToggle)}
               />
             </form>
-            <Link legacyBehavior href="/contacts">
-              <a className="themebtu">Work With Us</a>
+            <Link legacyBehavior href="https://premiumads.net/contact/">
+              <a className="themebtu">Work With Us</a> 
             </Link>
           </div>
           <div className="bar-menu" onClick={() => setToggle(true)}>

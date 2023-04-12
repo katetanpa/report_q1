@@ -1,6 +1,8 @@
 import BrandSlider from "@/src/components/BrandSlider";
 import Layout from "@/src/layout/Layout";
 import OsShare from "@/src/components/charts/OsShare"
+import FormatShare from "@/src/components/charts/FormatShare";
+import BarCPM from "@/src/components/charts/BarCPM";
 const Index = () => {
   return (
     <Layout noHeaderBg pageName={"Home"}>
@@ -213,18 +215,26 @@ const Index = () => {
             <div className="col-xl-4">
               <div className="heading-boder">
                 <h2>
-                  <span>Revenue Share</span>
+                  <span>1. Revenue Share</span>
                 </h2>
               </div>
-              <div className="heading">
+              <div className="heading mb-3">
                 <h6>Over Operating System & Ad Formats</h6>
+                <p>Interstitial ad format is gaining bigger share over total revenue when in previous years, it was almost the same to its competitor - Rewarded Ads.</p>
+                <p>Also in Q1 2023, we have tested & seen the thrivingness of 2 unpopular ad formats: App Open & Native Rendering <br /> So maybe you will really need to consider trying out these new exponent for your ad monetisation strategy</p>
               </div>
             </div>
             <div className="col-xl-4">
-              <OsShare />
+              <div className="w-100 text-center">
+                <OsShare />
+                <div id="legend-container" className=" d-inline-block mx-auto mt-3 px-3"></div>
+              </div>
             </div>
-            <div className="col-xl-4 ml-5">
-              <OsShare />
+            <div className="col-xl-4">
+              <div className="w-100 text-center">
+                <FormatShare />
+                <div id="legend-container1" className=" d-inline-block mx-auto mt-3 px-3"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -234,6 +244,36 @@ const Index = () => {
             <img alt="shap-4" src="assets/img/shap-b-2.png" />
           </div>
           <div className="style-shapes-3"></div>
+        </div>
+      </section>
+      <section className="gap">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+              <BarCPM />
+            </div>
+            <div className="col-lg-6 px-lg-5">
+              <div className="heading">
+                <h2>
+                  2. Top 15 Countries With <br/> Highest eCPM
+                </h2>
+                <img alt="line" src="assets/img/headingline.png" />
+              </div>
+              <div className="marketing">
+                <h4>
+                In 2023 Q1, the USA has kept steady fill rates & increased their ARPU.
+                </h4>
+                <p>
+                However there are new sky-rocketing players in the global market such as Saudi Arabia, Australia & South Korea.
+                These strongly emerging market is very promising in standing next to the US in terms of next quarter both eCPM & fill-rate.
+                </p>
+                <p> <b>
+                When it comes to PremiumAds exclusively, we are glad to remain our supreme position over our hometown - Brazil & LATAM country.
+                From our partners' feedbacks, we are bringing 3 times higher eCPM & almost 50% increase of fill-rate for their traffic in this area</b>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section
